@@ -4674,109 +4674,118 @@ msgid ""
 "institutional source.<br>Usually organizations are the data holder entities."
 msgstr ""
 
-#: ckanext/datitrentinoit/templates/package/base_form_page.html:5
-msgid "About datasets"
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:5
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:83
+msgid "Field Description"
 msgstr ""
 
-#: ckanext/datitrentinoit/templates/package/base_form_page.html:8
-msgid ""
-"A CKAN Dataset is a collection of data resources (such as files), together "
-"with a description and other information, at a fixed URL.<br>Datasets are "
-"what users see when searching for data."
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:9
+msgid "Dataset Metadata"
 msgstr ""
 
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:8
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:22
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:36
 msgid "Holder"
 msgstr ""
 
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:12
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:30
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:39
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:41
 msgid "Geographical Coverage"
 msgstr ""
 
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:16
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:51
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:60
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:46
 msgid "Temporal Coverage (Start Date)"
 msgstr ""
 
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:20
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:72
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:81
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:51
 msgid "Temporal Coverage (End Date)"
 msgstr ""
 
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:23
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:93
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:55
 msgid "Update Frequency"
 msgstr ""
 
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:23
-msgid "asNeeded"
-msgstr ""
-
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:23
-msgid "quarterly"
-msgstr ""
-
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:23
-msgid "fortnightly"
-msgstr ""
-
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:23
-msgid "annually"
-msgstr ""
-
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:23
-msgid "monthly"
-msgstr ""
-
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:23
-msgid "weekly"
-msgstr ""
-
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:23
-msgid "daily"
-msgstr ""
-
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:23
-msgid "continual"
-msgstr ""
-
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:23
-msgid "notPlanned"
-msgstr ""
-
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:23
-msgid "irregular"
-msgstr ""
-
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:26
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:101
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:59
 msgid "Creation Date"
 msgstr ""
 
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:29
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:109
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:63
 msgid "Publication Date"
 msgstr ""
 
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:32
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:117
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:67
 msgid "Revision Date"
 msgstr ""
 
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:35
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:125
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:71
 msgid "Encoding"
 msgstr ""
 
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:38
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:133
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:138
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:75
 msgid "Site URL"
 msgstr ""
 
-#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:41
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:197
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:202
+msgid "Origin"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:256
+#: ckanext/datitrentinoit/templates/package/snippets/additional_info.html:261
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:79
 msgid "contact"
 msgstr ""
 
-#: ckanext/datitrentinoit/templates/package/snippets/package_form.html:29
-msgid ""
-"Important: by submitting content, you agree to our <a href=\"{tc_url}"
-"\">Legal notes</a>."
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:55
+msgid "asNeeded"
 msgstr ""
 
-#: ckanext/datitrentinoit/templates/package/snippets/bk/package_metadata_fields.html:10
-msgid "Technical documentation"
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:55
+msgid "quarterly"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:55
+msgid "fortnightly"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:55
+msgid "annually"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:55
+msgid "monthly"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:55
+msgid "weekly"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:55
+msgid "daily"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:55
+msgid "continual"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:55
+msgid "notPlanned"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/package/snippets/package_basic_fields.html:55
+msgid "irregular"
 msgstr ""
 
 #: ckanext/datitrentinoit/templates/related/dashboard.html:6
